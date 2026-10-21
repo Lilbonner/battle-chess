@@ -7,7 +7,7 @@
 *Windows chess game inspired by Interplay's Battle Chess: a clean 2D board plus a frame-accurate port of the 1991 Macintosh
 Battle Chess engine (moves, turns and all combat scenes) that runs on assets extracted from your own copy of the game.*
 
-![Партия на 2D-доске](docs/screenshots/game.png)
+![Партия в режиме Battle Chess](docs/screenshots/game.png)
 
 ## Скачать
 Готовая сборка — на странице [Releases](https://github.com/Lilbonner/battle-chess-/releases): распакуйте архив и запустите
@@ -29,14 +29,17 @@ Battle Chess engine (moves, turns and all combat scenes) that runs on assets ext
   - пиксельный интерфейс в стиле Macintosh System 6 и диалог превращения пешки с картинками из оригинала.
 
 ## Скриншоты
+Режим «Battle Chess»: перспективная доска оригинальной игры для Macintosh и пиксельный интерфейс в стиле System 6.
 
-| Начальная позиция | Превращение пешки |
+| Начальная позиция | Поединок: ферзь берёт пешку |
 |---|---|
-| ![Начальная позиция](docs/screenshots/board.png) | ![Превращение пешки](docs/screenshots/promotion.png) |
+| ![Начальная позиция](docs/screenshots/board.png) | ![Поединок](docs/screenshots/fight.png) |
 
-Автоповорот доски в партии двух игроков:
+| Превращение пешки | Автоповорот доски для двух игроков |
+|---|---|
+| ![Превращение пешки](docs/screenshots/promotion.png) | ![Поворот доски](docs/screenshots/rotate.gif) |
 
-![Поворот доски](docs/screenshots/rotate.gif)
+<sub>На скриншотах — графика Battle Chess © Interplay из личной копии игры; сами ресурсы игры в репозиторий и релизы не входят.</sub>
 
 ## Режим «Battle Chess» и оригинальные ресурсы
 Графика и звуки оригинальной игры принадлежат Interplay и **не входят в репозиторий и релизы**.
@@ -86,4 +89,4 @@ dotnet publish -c Release -o dist
 
 ## Правовая информация
 Battle Chess — товарный знак Interplay Entertainment. Проект неофициальный, не связан с Interplay и не содержит
-ресурсов оригинальной игры.
+ресурсов оригинальной игры; скриншоты режима «Battle Chess» приведены только для иллюстрации.
