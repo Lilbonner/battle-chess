@@ -1,0 +1,20 @@
+# сборка
+bin/
+obj/
+dist/
+release/
+*.zip
+
+# ресурсы оригинальной Battle Chess (Interplay) — только для личного использования, не публикуются
+original/
+work/
+*.dsk
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vs/
+.vscode/
+*.user
