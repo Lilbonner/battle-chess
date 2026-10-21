@@ -21,5 +21,8 @@ Copy-Item "dist\BattleChess.exe" $stage
 "@ | Out-File -Encoding utf8 (Join-Path $stage "README.txt")
 
 $zip = "release\BattleChess-$Version-win-x64.zip"
-Compress-Archive -Path $stage -DestinationPath $zip -Force
+# tar.exe (есть в Windows 10/11) пишет пути в архиве через «/», как ожидают все распаковщики
+if (Test-Path $zip) { Remove-Item $zip }
+& tar.exe -a -cf $zip -C release BattleChess
+if ($LASTEXITCODE -ne 0) { throw "tar завершился с ошибкой" }
 Write-Host "Готово: $zip"
