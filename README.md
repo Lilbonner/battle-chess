@@ -7,7 +7,7 @@
 *Windows chess game inspired by Interplay's Battle Chess: a clean 2D board plus a frame-accurate port of the 1991 Macintosh
 Battle Chess engine (moves, turns and all combat scenes) that runs on assets extracted from your own copy of the game.*
 
-![Партия в режиме Battle Chess](docs/screenshots/game.png)
+![Партия в режиме Battle Chess](docs/screenshots/battlechess-game.png)
 
 ## Скачать
 Готовая сборка — на странице [Releases](https://github.com/Lilbonner/battle-chess/releases): распакуйте архив и запустите
@@ -33,11 +33,11 @@ Battle Chess engine (moves, turns and all combat scenes) that runs on assets ext
 
 | Начальная позиция | Поединок: ферзь берёт пешку |
 |---|---|
-| ![Начальная позиция](docs/screenshots/board.png) | ![Поединок](docs/screenshots/fight.png) |
+| ![Начальная позиция](docs/screenshots/battlechess-start.png) | ![Поединок](docs/screenshots/battlechess-fight.png) |
 
 | Превращение пешки | Автоповорот доски для двух игроков |
 |---|---|
-| ![Превращение пешки](docs/screenshots/promotion.png) | ![Поворот доски](docs/screenshots/rotate.gif) |
+| ![Превращение пешки](docs/screenshots/battlechess-promotion.png) | ![Поворот доски](docs/screenshots/battlechess-rotate.gif) |
 
 <sub>На скриншотах — графика Battle Chess © Interplay из личной копии игры; сами ресурсы игры в репозиторий и релизы не входят.</sub>
 
