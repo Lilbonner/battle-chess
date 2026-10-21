@@ -10,7 +10,7 @@ Battle Chess engine (moves, turns and all combat scenes) that runs on assets ext
 ![Партия в режиме Battle Chess](docs/screenshots/game.png)
 
 ## Скачать
-Готовая сборка — на странице [Releases](https://github.com/Lilbonner/battle-chess-/releases): распакуйте архив и запустите
+Готовая сборка — на странице [Releases](https://github.com/Lilbonner/battle-chess/releases): распакуйте архив и запустите
 `BattleChess.exe`. Один файл, установка .NET не нужна (Windows 10/11, x64).
 
 ## Возможности
