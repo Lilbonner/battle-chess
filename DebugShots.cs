@@ -14,6 +14,7 @@ public partial class GameForm
         ClientSize = new Size(1280, 800);
         CreateControl();
         canvas.Size = new Size(1280, 800 - menu.Height);
+        autoRotate = false;   // кадры для проверки — без автоповорота доски
         NewGame(true, true);
         if (mode == "orig") { SetOriginal(true); titleT = 0; }
         else SetOriginal(false);
