@@ -1,4 +1,4 @@
-# Сборка одного exe и архива для релиза: .\build.ps1 [-Version 1.0.0]
+﻿# Сборка одного exe и архива для релиза: .\build.ps1 [-Version 1.0.0]
 param([string]$Version = "1.0.0")
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
